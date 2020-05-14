@@ -40,6 +40,7 @@
     <linkfile dest="build/tools" src="tools"/>
   </project>
 
+  <project path="external/afrd" name="android_external_afrd" groups="pdk" remote="origin" />
   <project path="external/e2fsprogs" name="android_external_e2fsprogs" groups="pdk" remote="origin" />
   <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" groups="pdk" remote="origin" />
   <project path="external/libyuv" name="android_external_libyuv" groups="pdk" remote="origin" />
