@@ -46,6 +46,8 @@
   <project path="external/libyuv" name="android_external_libyuv" groups="pdk" remote="origin" />
   <project path="external/libvpx" name="android_external_libvpx" groups="pdk" remote="origin" />
   <project path="external/tinyalsa" name="android_external_tinyalsa" groups="pdk" remote="origin" />
+  <project path="external/koush/Superuser" name="Superuser" groups="pdk" remote="origin" />
+  <project path="external/koush/Widgets" name="Widgets" groups="pdk" remote="origin" />
   <project path="frameworks/av" name="android_frameworks_av" groups="pdk" remote="origin" />
   <project path="frameworks/base" name="android_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="origin" />
   <project path="frameworks/native" name="android_frameworks_native" groups="pdk" remote="origin" />
