@@ -316,6 +316,7 @@
   <project path="hardware/amlogic/wifi" name="android_hardware_amlogic_wifi" groups="amlogic" remote="origin" revision="refs/heads/s805_4.4.4_master" />
   <project path="hardware/arm/gpu" name="android_hardware_arm_gpu" groups="amlogic" remote="origin" revision="refs/heads/s805_4.4.4_master" />
   <project path="hardware/broadcom/libbt" name="android_hardware_broadcom_libbt" groups="pdk" remote="origin" revision="refs/heads/s805_4.4.4_master" />
+  <project path="hardware/realtek/libbt" name="android_hardware_realtek_libbt" groups="pdk" remote="origin" revision="refs/heads/s805_4.4.4_master" />
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" groups="broadcom_wlan" />
   <project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense" />
   <project path="hardware/hardkernel/libsensor" name="android_hardware_hardkernel_libsensor" groups="pdk" remote="origin" revision="refs/heads/s805_4.4.4_master" />
