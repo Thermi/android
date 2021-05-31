@@ -94,7 +94,7 @@
   <project path="packages/apps/TV" name="android_packages_apps_TV" remote="origin" revision="refs/heads/g12_9.0.0_32_master" />
   <project path="packages/apps/TvSettings" name="android_packages_apps_TvSettings" remote="origin" revision="refs/heads/g12_9.0.0_32_master" />
   <project path="packages/apps/UnifiedEmail" name="android_packages_apps_UnifiedEmail" remote="origin" revision="refs/heads/g12_9.0.0_32_master" />
-  <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="origin" />
+  <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="origin" revision="refs/heads/g12_9.0.0_32_master" />
 
   <project path="vendor/amlogic/common/gpu" name="android_vendor_amlogic_common_gpu" remote="origin" revision="refs/heads/g12_9.0.0_32_master" />
   <project path="vendor/amlogic/common/gpu-lib" name="android_vendor_amlogic_common_gpu-lib" remote="origin" revision="refs/heads/g12_9.0.0_32_master" />
