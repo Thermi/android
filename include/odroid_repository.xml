@@ -8,4 +8,5 @@
       <copyfile src="mkimage_ab.sh" dest="mkimage_ab.sh"/>
   </project>
   <project path="device/hardkernel/rk356x" name="android_device_hardkernel_rk356x" remote="origin" />
+  <project path="kernel" name="rk/kernel" remote="hardkernel"/>
 </manifest>
