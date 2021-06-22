@@ -9,7 +9,6 @@
   <remote name="rk_legacy" fetch=".."/>
 
   <remote name="hardkernel"
-          revision="refs/heads/rk356x_11.0.0_master"
           fetch=".." />
 
   <remote name="origin"

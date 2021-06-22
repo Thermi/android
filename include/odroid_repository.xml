@@ -8,5 +8,7 @@
       <copyfile src="mkimage_ab.sh" dest="mkimage_ab.sh"/>
   </project>
   <project path="device/hardkernel/rk356x" name="android_device_hardkernel_rk356x" remote="origin" />
-  <project path="kernel" name="rk/kernel" remote="hardkernel"/>
+  <project path="kernel" name="rk/kernel" remote="hardkernel" revision="refs/heads/rk356x_11.0.0_master" />
+  <project path="u-boot" name="rk3568/android/rk/u-boot" remote="hardkernel" revision="refs/heads/odroidm1-v2017.09" />
+  <project path="u-boot/rkbin" name="rk3568/rk/rkbin" remote="hardkernel" revision="refs/heads/odroidm1-v2017.09" />
 </manifest>
