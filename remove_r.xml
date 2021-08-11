@@ -86,6 +86,7 @@
     <remove-project name="platform/packages/apps/Car/Settings"/>
     <remove-project name="platform/packages/apps/Car/SystemUpdater"/>
     <remove-project name="platform/packages/apps/Car/tests"/>
+    <remove-project name="platform/packages/apps/Settings"/>
     <remove-project name="kernel/build"/>
 
     <!-- Checkout For Rockchip Branch -->
@@ -113,7 +114,6 @@
     <remove-project name="platform/hardware/interfaces" />
     <remove-project name="platform/hardware/libhardware" />
     <remove-project name="platform/packages/apps/Camera2" />
-    <remove-project name="platform/packages/apps/Settings" />
     <remove-project name="platform/packages/apps/SoundRecorder" />
     <remove-project name="platform/packages/apps/Launcher3" />
     <remove-project name="platform/packages/apps/Music" />
