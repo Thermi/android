@@ -23,7 +23,6 @@
   <project name="platform/hardware/libhardware" path="hardware/libhardware" remote="rk" revision="refs/tags/android-11.0-mid-rkr8" />
 
   <project path="frameworks/av" name="platform/frameworks/av" groups="pdk"  remote="rk" revision="refs/tags/android-11.0-mid-rkr8"/>
-  <project name="platform/frameworks/base" path="frameworks/base" remote="rk" revision="refs/tags/android-11.0-mid-rkr8"/>
   <project path="frameworks/ex" name="platform/frameworks/ex" groups="pdk-cw-fs,pdk-fs" remote="rk" revision="refs/tags/android-11.0-mid-rkr8"/>
   <project path="frameworks/native" name="platform/frameworks/native" groups="pdk" remote="rk" revision="refs/tags/android-11.0-mid-rkr8"/>
   <project name="platform/frameworks/opt/net/wifi" path="frameworks/opt/net/wifi" remote="rk" revision="refs/tags/android-11.0-mid-rkr8" />
