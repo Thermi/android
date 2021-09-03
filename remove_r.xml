@@ -115,7 +115,6 @@
     <remove-project name="platform/packages/apps/Camera2" />
     <remove-project name="platform/packages/apps/Settings" />
     <remove-project name="platform/packages/apps/SoundRecorder" />
-    <remove-project name="platform/packages/apps/DeskClock" />
     <remove-project name="platform/packages/apps/Launcher3" />
     <remove-project name="platform/packages/apps/Music" />
     <remove-project name="platform/packages/apps/Gallery2" />
@@ -127,8 +126,6 @@
     <remove-project name="platform/system/memory/libion" />
     <remove-project name="platform/packages/apps/TvSettings" />
 
-    <remove-project name="platform/art" />
-    <remove-project name="platform/external/chromium-libpac" />
     <remove-project name="platform/external/libavc" />
     <remove-project name="platform/external/v8" />
     <remove-project name="platform/system/bt" />
