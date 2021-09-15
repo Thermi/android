@@ -32,4 +32,5 @@
   <project path="hardware/wifi/realtek/drivers/rtl8821CU" name="android_hardware_wifi_realtek_drivers_rtl8821CU" remote="origin" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="origin" groups="pdk-fs" />
   <project path="vendor/rockchip/common" name="android_vendor_rockchip_common" remote="origin" />
+  <project path="packages/apps/OdroidSettings" name="android_packages_apps_odroid_settings" remote="origin" revision="refs/heads/rk356x_11.0.0_master" />
 </manifest>
