@@ -15,7 +15,6 @@
   <project path="bootable/recovery/mtdutils" name="platform/bootable/recovery/mtd_utils" remote="rk" revision="refs/tags/android-11.0-mid-rkr8"/>
   <!-- Soong does not support cpp.arm <project path="external/pcba_rockchip" name="rk/platform/external/rk-pcba-test" groups="pdk" remote="rk" revision="refs/tags/android-11.0-mid-rkr8" /> -->
   <!-- Q has iperf3 instead <project path="external/iperf" name="platform/external/iperf" remote="rk" revision="refs/tags/android-11.0-mid-rkr8"/> -->
-  <project path="bootable/recovery/pcba_core" name="rk/platform/external/rk-pcba-test" remote="rk" revision="refs/tags/android-11.0-mid-rkr8" />
   <project path="external/rktoolbox" name="rk/rktoolbox" remote="rk" revision="refs/tags/android-11.0-mid-rkr8"/>
   <project path="external/io" name="rk/platform/external/io" remote="rk" revision="refs/tags/android-11.0-mid-rkr8"/>
   <project path="external/ntfs-3g" name="rk/platform/external/ntfs-3g" remote="rk" revision="refs/tags/android-11.0-mid-rkr8" />
