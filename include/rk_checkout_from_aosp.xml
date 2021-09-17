@@ -56,6 +56,5 @@
   <project name="platform/system/vold" path="system/vold" remote="rk" revision="refs/tags/android-11.0-mid-rkr8"/>
 
   <project path="external/libavc" name="platform/external/libavc" remote="rk" revision="refs/tags/android-11.0-mid-rkr8" />
-  <project path="external/v8" name="platform/external/v8" remote="rk" revision="refs/tags/android-11.0-mid-rkr8" />
   <project path="system/bt" name="platform/system/bt" remote="rk" revision="refs/tags/android-11.0-mid-rkr8" />
 </manifest>

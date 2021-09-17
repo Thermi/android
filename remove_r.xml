@@ -127,6 +127,5 @@
     <remove-project name="platform/packages/apps/TvSettings" />
 
     <remove-project name="platform/external/libavc" />
-    <remove-project name="platform/external/v8" />
     <remove-project name="platform/system/bt" />
 </manifest>
