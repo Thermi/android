@@ -14,5 +14,5 @@
   <project path="packages/apps/Updater" name="android_packages_apps_odroid_updater" remote="origin" revision="refs/heads/rk356x_11.0.0_master" />
   <project path="hardware/interfaces" name="android_hardware_interfaces" remote="origin" />
   <project path="hardware/hardkernel/libodroid-gps" name="android_hardware_hardkernel_libodroid-gps" remote="origin" />
-  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remove="origin" groups="pdk-fs" />
+  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="origin" groups="pdk-fs" />
 </manifest>
