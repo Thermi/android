@@ -13,6 +13,7 @@
   <project path="kernel" name="rk/kernel" remote="hardkernel" revision="refs/heads/rk356x_11.0.0_master" />
   <project path="u-boot" name="rk/u-boot" remote="rk" revision="refs/heads/rk356x_11.0.0_master" />
   <project path="frameworks/base" name="android_frameworks_base" remote="origin" />
+  <project path="external/usb_modeswitch" name="android_external_usb_modeswitch" remote="origin" />
   <project path="packages/apps/Updater" name="android_packages_apps_odroid_updater" remote="origin" revision="refs/heads/rk356x_11.0.0_master" />
   <project path="hardware/interfaces" name="android_hardware_interfaces" remote="origin" />
   <project path="hardware/hardkernel/libodroid-gps" name="android_hardware_hardkernel_libodroid-gps" remote="origin" />

@@ -20,7 +20,6 @@
   <project path="external/ntfs-3g" name="rk/platform/external/ntfs-3g" remote="rk" revision="refs/tags/android-11.0-mid-rkr8" />
   <project path="hardware/realtek" name="platform/hardware/realtek" remote="rk" revision="refs/tags/android-11.0-mid-rkr8"/>
   <!--project path="frameworks/opt/net/pppoe" name="platform/frameworks/opt/net/pppoe" groups="pdk-fs" remote="rk" revision="refs/tags/android-11.0-mid-rkr8"/-->
-  <project path="external/usb_modeswitch" name="rk/platform/external/usb_modeswitch" remote="rk" revision="refs/tags/android-11.0-mid-rkr8"/>
   <project path="hardware/rockchip/hdmicec" name="rk/hardware/rk29/hdmicec" remote="rk" revision="refs/tags/android-11.0-mid-rkr8"/>
   <project path="hardware/rockchip/libiep" name="rk/hardware/rk29/libiep" remote="rk" revision="refs/tags/android-11.0-mid-rkr8" />
   <project path="hardware/rockchip/librga" name="linux/linux-rga" remote="rk29" revision="refs/tags/android-11.0-mid-rkr8" />
