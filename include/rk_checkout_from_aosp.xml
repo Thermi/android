@@ -17,7 +17,6 @@
   <project path="development" name="platform/development" remote="rk" revision="refs/tags/android-11.0-mid-rkr8" />
   <project path="hardware/broadcom/libbt" name="platform/hardware/broadcom/libbt" groups="pdk" remote="rk" revision="refs/tags/android-11.0-mid-rkr8"/>
   <!-- use the rk33/mid/10.0/develop branch for hardware/broadcom/wlan, do not update -->
-  <project groups="pdk,broadcom_wlan" name="platform/hardware/broadcom/wlan" path="hardware/broadcom/wlan" remote="rk" revision="refs/tags/android-11.0-mid-rkr8" />
   <project name="platform/hardware/libhardware" path="hardware/libhardware" remote="rk" revision="refs/tags/android-11.0-mid-rkr8" />
 
   <project path="frameworks/av" name="platform/frameworks/av" groups="pdk"  remote="rk" revision="refs/tags/android-11.0-mid-rkr8"/>
