@@ -20,7 +20,6 @@
   <project path="external/skia" name="platform/external/skia" groups="pdk,qcom_msm8x26" remote="rk" revision="refs/tags/android-11.0-mid-rkr8"/>
   <project name="platform/external/speex" path="external/speex" remote="rk" revision="refs/tags/android-11.0-mid-rkr8" />
   <project path="external/tinyalsa" name="platform/external/tinyalsa" groups="pdk" remote="rk" revision="refs/tags/android-11.0-mid-rkr8"/>
-  <project name="platform/external/wpa_supplicant_8" path="external/wpa_supplicant_8" remote="rk" revision="refs/tags/android-11.0-mid-rkr8" />
   <project path="packages/apps/Camera2" name="platform/packages/apps/Camera2" groups="pdk-fs" remote="rk" revision="refs/tags/android-11.0-mid-rkr8" />
   <project path="packages/apps/Gallery2" name="platform/packages/apps/Gallery2" groups="pdk-fs" remote="rk" revision="refs/tags/android-11.0-mid-rkr8"/>
   <project path="packages/apps/Launcher3" name="platform/packages/apps/Launcher3" groups="pdk-fs" remote="rk" revision="refs/tags/android-11.0-mid-rkr8"/>

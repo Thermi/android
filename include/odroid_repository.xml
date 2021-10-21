@@ -18,6 +18,7 @@
   </project>
   <project path="bootable/recovery" name="android_bootable_recovery" remote="origin" />
   <project path="bootable/recovery/pcba_core" name="android_bootable_recovery_pcba_core" remote="origin" />
+  <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" groups="pdk" remote="origin" />
   <project path="device/hardkernel/rk356x" name="android_device_hardkernel_rk356x" remote="origin" />
   <project path="kernel" name="rk/kernel" remote="hardkernel" revision="refs/heads/rk356x_11.0.0_master" />
   <project path="u-boot" name="rk/u-boot" remote="rk" revision="refs/heads/rk356x_11.0.0_master" />
