@@ -1,14 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <project groups="pdk" name="platform/build" path="build/make" remote="rk" revision="refs/tags/android-11.0-mid-rkr8">
-    <copyfile dest="Makefile" src="core/root.mk"/>
-    <linkfile dest="build/CleanSpec.mk" src="CleanSpec.mk"/>
-    <linkfile dest="build/buildspec.mk.default" src="buildspec.mk.default"/>
-    <linkfile dest="build/core" src="core"/>
-    <linkfile dest="build/envsetup.sh" src="envsetup.sh"/>
-    <linkfile dest="build/target" src="target"/>
-    <linkfile dest="build/tools" src="tools"/>
-  </project>
   <project groups="pdk,tradefed" name="platform/build/soong" path="build/soong" remote="rk" revision="refs/tags/android-11.0-mid-rkr8">
     <linkfile dest="Android.bp" src="root.bp"/>
     <linkfile dest="bootstrap.bash" src="bootstrap.bash"/>
