@@ -16,6 +16,7 @@
       <copyfile src="build/rockchip/build.sh" dest="build.sh"/>
       <copyfile src="mkimage_ab.sh" dest="mkimage_ab.sh"/>
   </project>
+  <project path="device/hardkernel/proprietary" name="android_device_hardkernel_proprietary" remote="origin" />
   <project path="bootable/recovery" name="android_bootable_recovery" remote="origin" />
   <project path="bootable/recovery/pcba_core" name="android_bootable_recovery_pcba_core" remote="origin" />
   <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" groups="pdk" remote="origin" />
