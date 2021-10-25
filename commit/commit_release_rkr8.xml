@@ -443,7 +443,6 @@
   <project groups="pdk-cw-fs,pdk-fs" name="platform/frameworks/minikin" path="frameworks/minikin" revision="aa9e7371bd3fe15f0958e2b615bc241f5ed73f8b" upstream="refs/tags/android-11.0.0_r37"/>
   <project groups="pdk" name="platform/frameworks/ml" path="frameworks/ml" revision="607052118eb819d70042bb1985be64069c3a2605" upstream="refs/tags/android-11.0.0_r37"/>
   <project groups="pdk-cw-fs,pdk-fs" name="platform/frameworks/multidex" path="frameworks/multidex" revision="e60bb86cd116127913fe8f4872d7846852627ffb" upstream="refs/tags/android-11.0.0_r37"/>
-  <project groups="pdk" name="platform/frameworks/native" path="frameworks/native" remote="rk" revision="547019c0aa8ddb4dd7a82fd9aaee6297e5ea0e32" upstream="refs/tags/android-11.0-mid-rkr8"/>
   <project groups="pdk-fs" name="platform/frameworks/opt/bitmap" path="frameworks/opt/bitmap" revision="e9850af1278e499e427d08dbf40244f3622bd6db" upstream="refs/tags/android-11.0.0_r37"/>
   <project groups="pdk-cw-fs,pdk-fs" name="platform/frameworks/opt/calendar" path="frameworks/opt/calendar" revision="6e29ad1dfe9b353af1c41a30101673bf01d7a144" upstream="refs/tags/android-11.0.0_r37"/>
   <project groups="pdk-fs" name="platform/frameworks/opt/car/services" path="frameworks/opt/car/services" revision="833b074645814fd26f60dfe9e5a451d63a8e0659" upstream="refs/tags/android-11.0.0_r37"/>
