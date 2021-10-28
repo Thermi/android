@@ -95,6 +95,7 @@
     <remove-project name="platform/hardware/interfaces" />
     <remove-project name="platform/hardware/libhardware" />
     <remove-project name="platform/packages/apps/Camera2" />
+    <remove-project name="platform/packages/apps/Car/CompanionDeviceSupport" />
     <remove-project name="platform/packages/apps/SoundRecorder" />
     <remove-project name="platform/packages/apps/Launcher3" />
     <remove-project name="platform/packages/apps/Music" />

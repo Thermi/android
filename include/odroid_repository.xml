@@ -37,4 +37,5 @@
   <project path="vendor/rockchip/common" name="android_vendor_rockchip_common" remote="origin" />
   <project path="packages/apps/OdroidSettings" name="android_packages_apps_odroid_settings" remote="origin" revision="refs/heads/rk356x_11.0.0_master" />
   <project path="system/core" name="android_system_core" remote="origin" revision="refs/heads/rk356x_11.0.0_master" />
+  <project path="system/vold" name="android_system_vold" remote="origin" revision="refs/heads/rk356x_11.0.0_master" />
 </manifest>
