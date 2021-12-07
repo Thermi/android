@@ -1,36 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <project groups="pdk,tradefed" name="platform/build/soong" path="build/soong" remote="rk" revision="refs/tags/android-11.0-mid-rkr10">
+  <project path="build/soong" groups="pdk,tradefed" name="android_build_soong" remote="rk" >
     <linkfile dest="Android.bp" src="root.bp"/>
     <linkfile dest="bootstrap.bash" src="bootstrap.bash"/>
   </project>
-  <project name="platform/bionic" path="bionic" remote="rk" revision="refs/tags/android-11.0-mid-rkr10"/>
-  <project path="development" name="platform/development" remote="rk" revision="refs/tags/android-11.0-mid-rkr10" />
-  <project path="hardware/broadcom/libbt" name="platform/hardware/broadcom/libbt" groups="pdk" remote="rk" revision="refs/tags/android-11.0-mid-rkr10"/>
+  <project path="bionic" name="android_bionic" remote="rk" />
+  <project path="development" name="android_development" remote="rk"  />
+  <project path="hardware/broadcom/libbt" name="android_hardware_broadcom_libbt" groups="pdk" remote="rk" />
   <!-- use the rk33/mid/10.0/develop branch for hardware/broadcom/wlan, do not update -->
-  <project name="platform/hardware/libhardware" path="hardware/libhardware" remote="rk" revision="refs/tags/android-11.0-mid-rkr10" />
+  <project path="hardware/libhardware" name="android_hardware_libhardware" remote="rk"  />
 
-  <project path="frameworks/av" name="platform/frameworks/av" groups="pdk"  remote="rk" revision="refs/tags/android-11.0-mid-rkr10"/>
-  <project path="frameworks/ex" name="platform/frameworks/ex" groups="pdk-cw-fs,pdk-fs" remote="rk" revision="refs/tags/android-11.0-mid-rkr10"/>
-  <project name="platform/frameworks/opt/telephony" path="frameworks/opt/telephony" remote="rk" revision="refs/tags/android-11.0-mid-rkr10" />
-  <project name="platform/frameworks/opt/net/ethernet" path="frameworks/opt/net/ethernet" remote="rk" revision="refs/tags/android-11.0-mid-rkr10" />
-  <project path="external/e2fsprogs" name="platform/external/e2fsprogs" remote="rk" revision="refs/tags/android-11.0-mid-rkr10" />
-  <project path="external/f2fs-tools" name="platform/external/f2fs-tools" remote="rk" revision="refs/tags/android-11.0-mid-rkr10" />
-  <project path="external/iperf3" name="platform/external/iperf3" groups="pdk" remote="rk" revision="refs/tags/android-11.0-mid-rkr10"/>
-  <project name="platform/external/libdrm" path="external/libdrm" remote="rk" revision="refs/tags/android-11.0-mid-rkr10" />
-  <project path="external/skia" name="platform/external/skia" groups="pdk,qcom_msm8x26" remote="rk" revision="refs/tags/android-11.0-mid-rkr10"/>
-  <project name="platform/external/speex" path="external/speex" remote="rk" revision="refs/tags/android-11.0-mid-rkr10" />
-  <project path="external/tinyalsa" name="platform/external/tinyalsa" groups="pdk" remote="rk" revision="refs/tags/android-11.0-mid-rkr10"/>
-  <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" remote="rk" revision="refs/tags/android-11.0-mid-rkr10" />
-  <project path="packages/apps/Camera2" name="platform/packages/apps/Camera2" groups="pdk-fs" remote="rk" revision="refs/tags/android-11.0-mid-rkr10" />
-  <project path="packages/apps/Gallery2" name="platform/packages/apps/Gallery2" groups="pdk-fs" remote="rk" revision="refs/tags/android-11.0-mid-rkr10"/>
-  <project path="packages/apps/Launcher3" name="platform/packages/apps/Launcher3" groups="pdk-fs" remote="rk" revision="refs/tags/android-11.0-mid-rkr10"/>
-  <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" groups="pdk-fs" remote="rk" revision="refs/tags/android-11.0-mid-rkr10"/>
-  <project path="packages/apps/TvSettings" name="platform/packages/apps/TvSettings" remote="rk" revision="refs/tags/android-11.0-mid-rkr10" />
-  <project path="packages/apps/Music" name="platform/packages/apps/Music" groups="pdk-fs" remote="rk" revision="refs/tags/android-11.0-mid-rkr10"/>
-  <project path="packages/modules/NetworkStack" name="platform/packages/modules/NetworkStack" groups="pdk-cw-fs,pdk-fs" remote="rk" revision="refs/tags/android-11.0-mid-rkr10"/>
-  <project path="packages/providers/MediaProvider" name="platform/packages/providers/MediaProvider" remote="rk" revision="refs/tags/android-11.0-mid-rkr10"/>
-  <project path="kernel/configs" name="kernel/configs" remote="rk" revision="refs/tags/android-11.0-mid-rkr10" >
+  <project path="frameworks/av" name="android_frameworks_av" groups="pdk"  remote="rk" />
+  <project path="frameworks/ex" name="android_frameworks_ex" groups="pdk-cw-fs,pdk-fs" remote="rk" />
+  <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="rk"  />
+  <project path="frameworks/opt/net/ethernet" name="android_frameworks_opt_net_ethernet" remote="rk"  />
+  <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="rk"  />
+  <project path="external/f2fs-tools" name="android_external_f2fs-tools" remote="rk"  />
+  <project path="external/iperf3" name="android_external_iperf3" groups="pdk" remote="rk" />
+  <project path="external/libdrm" name="android_external_libdrm" remote="rk"  />
+  <project path="external/skia" name="android_external_skia" groups="pdk,qcom_msm8x26" remote="rk" />
+  <project path="external/speex" name="android_external_speex" remote="rk"  />
+  <project path="external/tinyalsa" name="android_external_tinyalsa" groups="pdk" remote="rk" />
+  <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" remote="rk"  />
+  <project path="packages/apps/Camera2" name="android_packages_apps_Camera2" groups="pdk-fs" remote="rk"  />
+  <project path="packages/apps/Gallery2" name="android_packages_apps_Gallery2" groups="pdk-fs" remote="rk" />
+  <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" groups="pdk-fs" remote="rk" />
+  <project path="packages/apps/SoundRecorder" name="android_packages_apps_SoundRecorder" groups="pdk-fs" remote="rk" />
+  <project path="packages/apps/TvSettings" name="android_packages_apps_TvSettings" remote="rk"  />
+  <project path="packages/apps/Music" name="android_packages_apps_Music" groups="pdk-fs" remote="rk" />
+  <project path="packages/modules/NetworkStack" name="android_packages_modules_NetworkStack" groups="pdk-cw-fs,pdk-fs" remote="rk" />
+  <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" remote="rk" />
+  <project path="kernel/configs" name="android_kernel_configs" remote="rk"  >
     <linkfile dest="kernel/kernel/configs/android-11.config" src="rockchip/android-11.config"/>
     <linkfile dest="kernel/kernel/configs/android-11-go.config" src="rockchip/android-11-go.config"/>
     <linkfile dest="kernel/kernel/configs/rk3326.config" src="rockchip/rk3326.config"/>
@@ -40,10 +40,10 @@
     <linkfile dest="kernel/kernel/configs/rk3399.config" src="rockchip/rk3399.config"/>
     <linkfile dest="kernel/kernel/configs/non_debuggable.config" src="r/android-4.19/non_debuggable.config"/>
   </project>
-  <project name="platform/system/memory/libion" path="system/memory/libion" remote="rk" revision="refs/tags/android-11.0-mid-rkr10"/>
-  <project name="platform/system/netd" path="system/netd" remote="rk" revision="refs/tags/android-11.0-mid-rkr10"/>
+  <project path="system/memory/libion" name="android_system_memory_libion" remote="rk" />
+  <project path="system/netd" name="android_system_netd" remote="rk" />
   <!-- Security Patch 2021-0805 -->
-  <project name="platform/system/libhwbinder" path="system/libhwbinder" remote="rk" revision="refs/tags/android-11.0-mid-rkr10"/>
-  <project name="platform/packages/services/Telephony" path="packages/services/Telephony" remote="rk" revision="refs/tags/android-11.0-mid-rkr10"/>
-  <project name="platform/external/sqlite" path="external/sqlite" remote="rk" revision="refs/tags/android-11.0-mid-rkr10"/>
+  <project path="system/libhwbinder" name="android_system_libhwbinder" remote="rk" />
+  <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="rk" />
+  <project path="external/sqlite" name="android_external_sqlite" remote="rk" />
 </manifest>

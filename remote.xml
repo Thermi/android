@@ -4,8 +4,12 @@
   <remote name="aosp"
           fetch="https://android.googlesource.com/"
           review="https://android-review.googlesource.com/" />
-  <remote name="rk" fetch=".." review="https://10.10.10.29" />
-  <remote name="rk29" fetch=".." review="https://10.10.10.29" />
+  <remote name="rk" fetch=".."
+          revision="refs/heads/rk356x_11.0.0_master"
+          />
+  <remote name="rk29" fetch=".."
+          revision="refs/heads/rk356x_11.0.0_master"
+          />
   <remote name="rk_legacy" fetch=".."/>
 
   <remote name="hardkernel"
