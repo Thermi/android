@@ -42,5 +42,6 @@
   <project path="packages/apps/OdroidSettings" name="android_packages_apps_odroid_settings" remote="origin" revision="refs/heads/rk356x_11.0.0_master" />
   <project path="system/bt" name="android_system_bt" remote="origin" revision="refs/heads/rk356x_11.0.0_master" />
   <project path="system/core" name="android_system_core" remote="origin" revision="refs/heads/rk356x_11.0.0_master" />
+  <project path="system/extras" name="android_system_extras" remote="origin" revision="refs/heads/rk356x_11.0.0_master" />
   <project path="system/vold" name="android_system_vold" remote="origin" revision="refs/heads/rk356x_11.0.0_master" />
 </manifest>
