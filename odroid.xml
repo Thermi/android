@@ -53,6 +53,7 @@
   <project path="external/usb_modeswitch" name="android_external_usb_modeswitch" remote="origin" />
   <project path="frameworks/av" name="android_frameworks_av" groups="pdk" remote="origin" />
   <project path="frameworks/base" name="android_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="origin" />
+  <project path="frameworks/minikin" name="android_frameworks_minikin" groups="pdk-cw-fs,pdk-fs" remote="origin" />
   <project path="frameworks/native" name="android_frameworks_native" groups="pdk" remote="origin" />
   <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" groups="pdk" remote="origin" />
   <project path="frameworks/opt/net/ethernet" name="android_frameworks_opt_net_ethernet" groups="pdk-fs" remote="origin" />
