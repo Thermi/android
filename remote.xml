@@ -4,10 +4,10 @@
   <remote name="aosp"
           fetch="https://android.googlesource.com/"
           review="https://android-review.googlesource.com/" />
-  <remote name="rk" fetch="https://github.com/hardkernel/"
+  <remote name="rk" fetch="https://github.com/codewalkerster/"
           revision="refs/heads/rk356x_11.0.0_master"
           />
-  <remote name="rk29" fetch=".."
+  <remote name="rk29" fetch="https://github.com/codewalkerster/"
           revision="refs/heads/rk356x_11.0.0_master"
           />
 
