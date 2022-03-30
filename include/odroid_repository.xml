@@ -22,7 +22,6 @@
   <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" groups="pdk" remote="origin" />
   <project path="device/hardkernel/rk356x" name="android_device_hardkernel_rk356x" remote="origin" />
   <project path="kernel" name="linux" remote="hardkernel" revision="refs/heads/rk356x_11.0.0_master" />
-  <project path="u-boot" name="u-boot" remote="hardkernel" revision="refs/heads/rk356x_11.0.0_master" />
   <project path="frameworks/base" name="android_frameworks_base" remote="origin" />
   <project path="frameworks/native" name="android_frameworks_native" remote="origin" />
   <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" remote="origin" />
