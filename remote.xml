@@ -4,18 +4,17 @@
   <remote name="aosp"
           fetch="https://android.googlesource.com/"
           review="https://android-review.googlesource.com/" />
-  <remote name="rk" fetch=".."
+  <remote name="rk" fetch="https://github.com/hardkernel/"
           revision="refs/heads/rk356x_11.0.0_master"
           />
   <remote name="rk29" fetch=".."
           revision="refs/heads/rk356x_11.0.0_master"
           />
-  <remote name="rk_legacy" fetch=".."/>
 
   <remote name="hardkernel"
-          fetch=".." />
+          fetch="https://github.com/hardkernel/" />
 
   <remote name="origin"
           revision="refs/heads/rk356x_11.0.0_master"
-          fetch=".." />
+          fetch="https://github.com/codewalkerster/" />
 </manifest>
