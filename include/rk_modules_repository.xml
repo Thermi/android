@@ -44,7 +44,6 @@
   </project>
   <project path="prebuilts/gcc/linux-x86/aarch64/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" name="android_prebuilts_gcc_linux-x86_aarch64_gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" remote="rk29" />
   <project path="prebuilts/gcc/linux-x86/arm/gcc-linaro-6.3.1-2017.05-x86_64_arm-linux-gnueabihf" name="android_prebuilts_gcc_linux-x86_arm_gcc-linaro-6.3.1-2017.05-x86_64_arm-linux-gnueabihf" remote="rk29" />
-  <project path="rkbin" name="android_rkbin" remote="rk29" />
   <!-- build scrpit failed in Q<project path="external/rk_tee_user" name="rk/platform/system/rk_tee_user" remote="rk"  /> -->
   <project path="hardware/rockchip/librkvpu" name="android_hardware_rockchip_librkvpu" remote="rk" />
   <project path="hardware/rockchip/omx_il" name="android_hardware_rockchip_omx_il" remote="rk" />
