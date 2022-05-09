@@ -8,7 +8,6 @@
   <project path="development" name="android_development" remote="rk"  />
   <project path="hardware/broadcom/libbt" name="android_hardware_broadcom_libbt" groups="pdk" remote="rk" />
   <!-- use the rk33/mid/10.0/develop branch for hardware/broadcom/wlan, do not update -->
-  <project path="hardware/libhardware" name="android_hardware_libhardware" remote="rk"  />
 
   <project path="frameworks/av" name="android_frameworks_av" groups="pdk"  remote="rk" />
   <project path="frameworks/ex" name="android_frameworks_ex" groups="pdk-cw-fs,pdk-fs" remote="rk" />
