@@ -12,6 +12,7 @@
 
   <project path="device/google/atv" name="android_device_google_atv" group="device,broadcom_pdk,generic_fs,pdk" remote="origin" />
   <project path="device/hardkernel/odroidn2" name="android_device_hardkernel_odroidn2" remote="origin" revision="refs/heads/g12_9.0.0_64_master" />
+  <project path="device/hardkernel/odroidn2l" name="android_device_hardkernel_odroidn2l" remote="origin" revision="refs/heads/g12_9.0.0_64_master" />
   <project path="device/hardkernel/odroidc4" name="android_device_hardkernel_odroidc4" remote="origin" revision="refs/heads/g12_9.0.0_64_master" />
   <project path="device/hardkernel/common" name="android_device_hardkernel_common" remote="origin" />
   <project path="device/hardkernel/proprietary" name="android_device_hardkernel_proprietary" remote="origin" />
