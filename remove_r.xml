@@ -113,7 +113,6 @@
     <remove-project name="platform/external/f2fs-tools" />
 
     <!-- Security Patch 2021-08-05 -->
-    <remove-project name="platform/external/sqlite" />
     <remove-project name="platform/packages/services/Telephony" />
     <remove-project name="platform/system/libhwbinder" />
 </manifest>

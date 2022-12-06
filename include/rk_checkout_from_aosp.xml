@@ -43,5 +43,4 @@
   <!-- Security Patch 2021-0805 -->
   <project path="system/libhwbinder" name="android_system_libhwbinder" remote="rk" />
   <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="rk" />
-  <project path="external/sqlite" name="android_external_sqlite" remote="rk" />
 </manifest>
