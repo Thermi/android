@@ -12,7 +12,7 @@
   <project path="common" name="linux" remote="thermi" revision="aml64_buildroot_master_v4_m5_with_rtw88" />
   <project path="bootloader/uboot" name="u-boot" remote="hardkernel" revision="refs/heads/odroidg12-v2015.01" />
 
-  <project path="device/google/atv" name="android_device_google_atv" group="device,broadcom_pdk,generic_fs,pdk" remote="codewlkerster" />
+  <project path="device/google/atv" name="android_device_google_atv" group="device,broadcom_pdk,generic_fs,pdk" remote="codewalkerster" />
   <project path="device/hardkernel/odroidn2" name="android_device_hardkernel_odroidn2" remote="codewalkerster" revision="refs/heads/g12_9.0.0_64_master" />
   <project path="device/hardkernel/odroidn2l" name="android_device_hardkernel_odroidn2l" remote="codewalkerster" revision="refs/heads/g12_9.0.0_64_master" />
   <project path="device/hardkernel/odroidc4" name="android_device_hardkernel_odroidc4" remote="thermi" revision="refs/heads/g12_9.0.0_64_master" />
